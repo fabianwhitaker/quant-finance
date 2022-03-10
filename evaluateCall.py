@@ -1,4 +1,4 @@
-```python
+
 '''
 Function to calculate the price of a European Call Option using basic Black-Scholes theory
 '''
@@ -18,4 +18,3 @@ def evaluateCall(spotPrice,strikePrice,timeToExpiry,riskFreeRate,sigma):
     
     return(spotPrice*dist1 - (strikePrice*timeDiscount*dist2))
 
-```
